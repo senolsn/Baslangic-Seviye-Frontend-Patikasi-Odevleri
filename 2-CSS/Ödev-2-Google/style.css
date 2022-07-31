@@ -1,0 +1,38 @@
+img{
+    margin-top: 100px;
+}
+.top-box{
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    font-size: 20px;
+}
+.box-1{
+    background-color: rgb(126,229,218);
+    float: left;
+    text-align: center;
+    width: 35%;
+    height: 150px;
+    font-size: 20px;
+}
+.box-2{
+    background-color: rgb(112, 204, 194);
+    width: 30%;
+    height: 150px;
+    float: left;
+    text-align: center;
+
+}
+.box-3{
+    text-align: center;
+    background-color: rgb(98, 179, 170);
+    width: 35%;
+    height: 140px;
+    float: left;
+    padding-top: 10px;
+}
+.footer{
+    float: left;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 1%;
+}
