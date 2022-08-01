@@ -1,0 +1,73 @@
+/*
+Kaynaklar:
+(!) https://www.mehsatek.com/css-kodlari/ (!) Anlamını bilmediğiniz tüm css kodlarına burdan ulaşabilirsiniz.
+https://css.sitesi.web.tr/css-align.html
+
+
+*/
+.header{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 20px;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    
+}
+
+.header a{
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    text-decoration: inherit;
+}
+.header span{
+    margin-right: 15px;
+    margin-top: 3px;
+}
+.header a:hover{
+    text-decoration: underline;
+}
+
+img{
+    margin-top: 13%;
+}
+
+.search-input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+}
+
+.search-input input{
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+.search-input .material-symbols-outlined{
+    color: gray;
+}
+.search-buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.search-buttons button{
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
